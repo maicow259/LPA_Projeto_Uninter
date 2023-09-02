@@ -3507,6 +3507,392 @@
 							]
 						}
 					]
+				},
+				{
+					"_type": "FCFlowchart",
+					"_id": "AAAAAAGKUwyl4v/aL5E=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Flowchart1",
+					"ownedElements": [
+						{
+							"_type": "FCFlowchartDiagram",
+							"_id": "AAAAAAGKUwyl4v/b2Mg=",
+							"_parent": {
+								"$ref": "AAAAAAGKUwyl4v/aL5E="
+							},
+							"name": "Game_flow",
+							"ownedViews": [
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGKUw7TOP/7xKs=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"font": "Arial;13;0",
+									"left": 680,
+									"top": 24,
+									"width": 313,
+									"height": 209,
+									"text": "main.py"
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGKUw8uoP//g3A=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"font": "Arial;13;0",
+									"left": 584,
+									"top": 312,
+									"width": 337,
+									"height": 593,
+									"text": "Game.py"
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGKUw/R+QATwls=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"font": "Arial;13;0",
+									"left": 96,
+									"top": 312,
+									"width": 361,
+									"height": 577,
+									"text": "Menu.py"
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGKUw/0cQAXn/o=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"font": "Arial;13;0",
+									"left": 1216,
+									"top": 320,
+									"width": 209,
+									"height": 609,
+									"text": "Level.py"
+								},
+								{
+									"_type": "FCProcessView",
+									"_id": "AAAAAAGKUxJusQAvIwU=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"model": {
+										"$ref": "AAAAAAGKUxJusQAtagk="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGKUxJusQAw79k=",
+											"_parent": {
+												"$ref": "AAAAAAGKUxJusQAvIwU="
+											},
+											"font": "Arial;13;0",
+											"left": 690,
+											"top": 58,
+											"width": 109,
+											"height": 13,
+											"text": "game = Game()",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 680,
+									"top": 48,
+									"width": 129,
+									"height": 33,
+									"nameLabel": {
+										"$ref": "AAAAAAGKUxJusQAw79k="
+									}
+								},
+								{
+									"_type": "FCProcessView",
+									"_id": "AAAAAAGKUxSPuQBQ/9M=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"model": {
+										"$ref": "AAAAAAGKUxSPuQBOu+M="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGKUxSPuQBRYqs=",
+											"_parent": {
+												"$ref": "AAAAAAGKUxSPuQBQ/9M="
+											},
+											"font": "Arial;13;0",
+											"left": 858,
+											"top": 58,
+											"width": 63.578125,
+											"height": 13,
+											"text": "game.run()",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 848,
+									"top": 48,
+									"width": 83.578125,
+									"height": 33,
+									"nameLabel": {
+										"$ref": "AAAAAAGKUxSPuQBRYqs="
+									}
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGKUxkbEABwHwM=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"font": "Arial;13;0",
+									"left": 600,
+									"top": 392,
+									"width": 304,
+									"height": 80,
+									"text": "__initi__()"
+								},
+								{
+									"_type": "UMLTextBoxView",
+									"_id": "AAAAAAGKUxmjOAB28I0=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"font": "Arial;13;0",
+									"left": 592,
+									"top": 496,
+									"width": 312,
+									"height": 280,
+									"text": "run()"
+								},
+								{
+									"_type": "FCProcessView",
+									"_id": "AAAAAAGKUxniMAB8Pxk=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"model": {
+										"$ref": "AAAAAAGKUxniMAB6/a0="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGKUxniMAB9y3s=",
+											"_parent": {
+												"$ref": "AAAAAAGKUxniMAB8Pxk="
+											},
+											"font": "Arial;13;0",
+											"left": 626,
+											"top": 426,
+											"width": 245,
+											"height": 13,
+											"text": "windows = pygame.display.setmode(...)",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 616,
+									"top": 416,
+									"width": 265,
+									"height": 46,
+									"nameLabel": {
+										"$ref": "AAAAAAGKUxniMAB9y3s="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAGKUyuJ9wCdiUw=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"model": {
+										"$ref": "AAAAAAGKUyuJ9wCb86o="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGKUyuJ9wCeR0o=",
+											"_parent": {
+												"$ref": "AAAAAAGKUyuJ9wCdiUw="
+											},
+											"model": {
+												"$ref": "AAAAAAGKUyuJ9wCb86o="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 759,
+											"top": 241,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGKUyuJ9wCdiUw="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGKUxniMAB8Pxk="
+									},
+									"tail": {
+										"$ref": "AAAAAAGKUxJusQAvIwU="
+									},
+									"lineStyle": 2,
+									"points": "744:80;744:416",
+									"nameLabel": {
+										"$ref": "AAAAAAGKUyuJ9wCeR0o="
+									}
+								},
+								{
+									"_type": "FCFlowView",
+									"_id": "AAAAAAGKUyuf8ACmyTg=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"model": {
+										"$ref": "AAAAAAGKUyuf7wCk2Ds="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGKUyuf8ACn03w=",
+											"_parent": {
+												"$ref": "AAAAAAGKUyuf8ACmyTg="
+											},
+											"model": {
+												"$ref": "AAAAAAGKUyuf7wCk2Ds="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 868,
+											"top": 409,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGKUyuf8ACmyTg="
+											},
+											"edgePosition": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGKUxSPuQBQ/9M="
+									},
+									"tail": {
+										"$ref": "AAAAAAGKUxniMAB8Pxk="
+									},
+									"lineStyle": 2,
+									"points": "880:416;883:416;883:80",
+									"nameLabel": {
+										"$ref": "AAAAAAGKUyuf8ACn03w="
+									}
+								},
+								{
+									"_type": "FCDecisionView",
+									"_id": "AAAAAAGKUywp4ACv1S4=",
+									"_parent": {
+										"$ref": "AAAAAAGKUwyl4v/b2Mg="
+									},
+									"model": {
+										"$ref": "AAAAAAGKUywp4ACtTwE="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGKUywp4QCwEzA=",
+											"_parent": {
+												"$ref": "AAAAAAGKUywp4ACv1S4="
+											},
+											"font": "Arial;13;0",
+											"left": 732.542236328125,
+											"top": 533,
+											"width": 57.08447265625,
+											"height": 26,
+											"text": "O while é True ?",
+											"wordWrap": true
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 704,
+									"top": 520,
+									"width": 114.1689453125,
+									"height": 52,
+									"nameLabel": {
+										"$ref": "AAAAAAGKUywp4QCwEzA="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCProcess",
+							"_id": "AAAAAAGKUxJusQAtagk=",
+							"_parent": {
+								"$ref": "AAAAAAGKUwyl4v/aL5E="
+							},
+							"name": "game = Game()",
+							"ownedElements": [
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAGKUyuJ9wCb86o=",
+									"_parent": {
+										"$ref": "AAAAAAGKUxJusQAtagk="
+									},
+									"source": {
+										"$ref": "AAAAAAGKUxJusQAtagk="
+									},
+									"target": {
+										"$ref": "AAAAAAGKUxniMAB6/a0="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCProcess",
+							"_id": "AAAAAAGKUxSPuQBOu+M=",
+							"_parent": {
+								"$ref": "AAAAAAGKUwyl4v/aL5E="
+							},
+							"name": "game.run()"
+						},
+						{
+							"_type": "FCProcess",
+							"_id": "AAAAAAGKUxniMAB6/a0=",
+							"_parent": {
+								"$ref": "AAAAAAGKUwyl4v/aL5E="
+							},
+							"name": "windows = pygame.display.setmode(...)",
+							"ownedElements": [
+								{
+									"_type": "FCFlow",
+									"_id": "AAAAAAGKUyuf7wCk2Ds=",
+									"_parent": {
+										"$ref": "AAAAAAGKUxniMAB6/a0="
+									},
+									"source": {
+										"$ref": "AAAAAAGKUxniMAB6/a0="
+									},
+									"target": {
+										"$ref": "AAAAAAGKUxSPuQBOu+M="
+									}
+								}
+							]
+						},
+						{
+							"_type": "FCDecision",
+							"_id": "AAAAAAGKUywp4ACtTwE=",
+							"_parent": {
+								"$ref": "AAAAAAGKUwyl4v/aL5E="
+							},
+							"name": "O while é True ?"
+						}
+					]
 				}
 			]
 		}
